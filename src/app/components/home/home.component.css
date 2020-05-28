@@ -1,20 +1,16 @@
+html, body{
+    overflow-x: hidden;
+}
+
+/*About me Section*/
 .aboutMe{
     text-align: center;
     padding-bottom: 25px;
 }
 
-.courseList{
-    text-align: center;
-    list-style-type: none;
-}
-
-.courses{
-    text-align: center;
-    padding-bottom: 25px;
-}
-
+/*Skill Section*/
 .skillSection{
-    background-color: #fc5421;
+    
     padding-bottom: 25px;
     padding-top: 5px;
     color: #ffffff;
@@ -23,12 +19,16 @@
 
 .skills{
     text-align: center;
+    color: black;
 }
 
 .skillList{
     list-style-type: none;
     display: inline;
     text-align: center;
+}
+.adobeHead{
+    margin: 0;
 }
 
 .knowledge{
@@ -41,21 +41,84 @@
     list-style-type: none;
     text-align: center;
     display: inline-block;
+    padding: 0;
 }
 
 .userExperience{
     text-align: center;
     display: inline-block;
     position: relative;
-    margin: 0;
 }
 
 .uxList{
     list-style-type: none;
     text-align: center;
     display: inline-block;
+    padding: 0;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #fc5421;
+    color: #ffffff;
+}
+
+.card:hover{
+
+}
+
+.column{
+    width: 70%;
+}
+
+.row{
+    margin: 0;
+    margin-right: 0;
+    width: 70%;
+}
+/*Course List Section */
+.courseList{
+    text-align: center;
+    list-style-type: none;
+}
+
+.courses{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.gpaC{
+    color: #28a745;;
+    display: inline;
+    margin-right: 10px;
+}
+
+.gpaM{
+    color: #dc3545;
+    display: inline;
+}
+
+
+/*Project Section*/
+
+.projects{
+    background-color: #17a2b8;
+    padding: 10px;
+    padding-bottom: 30px;
 }
 
 .projectHead{
-    margin-left: 200px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.prototypeSum{
+    text-align: center;
+    color: #ffffff;
+}
+
+.myBtn{
+    margin: auto;
 }

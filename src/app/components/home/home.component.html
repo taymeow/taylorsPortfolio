@@ -18,24 +18,6 @@
                 <div class="navbar-collapse" id="navbarToggler">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item" *ngIf="!isDocumentation()">
-                            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
-                                <i class="fa fa-twitter"></i>
-                                <p class="d-lg-none">Twitter</p>
-                            </a>
-                        </li>
-                        <li class="nav-item" *ngIf="!isDocumentation()">
-                            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank">
-                                <i class="fa fa-facebook-square"></i>
-                                <p class="d-lg-none">Facebook</p>
-                            </a>
-                        </li>
-                        <li class="nav-item" *ngIf="!isDocumentation()">
-                            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
-                                <i class="fa fa-instagram"></i>
-                                <p class="d-lg-none">Instagram</p>
-                            </a>
-                        </li>
-                        <li class="nav-item" *ngIf="!isDocumentation()">
                             <a class="nav-link" rel="tooltip" title="Star on GitHub" data-placement="bottom" href="https://www.github.com/CreativeTimOfficial/paper-kit-2-angular" target="_blank">
                                 <i class="fa fa-github"></i>
                                 <p class="d-lg-none">GitHub</p>
@@ -53,7 +35,7 @@
             </div>
         </nav>
 
-        <div class="page-header section-dark" style="background-image: url('assets/img/antoine-barres.jpg');">
+        <div class="page-header section-dark" style="background-image: url('');">
             <div class="filter"></div>
             <div class="content-center">
                 <div class="container">
@@ -80,32 +62,32 @@
                      I am pursuing as a career.</p>
             </section>
 
-            
-            <section class="skillSection">
+                <section class="skillSection">
                 <h2 class="skills">SKILLS</h2>
-                <div class="row">
-                    <section class="col-md-4 knowledge">
-                        <h3><strong>Knowledge Of:</strong></h3>
+                <div class="row mx-auto">
+                    <section class="col-md-4 knowledge card column">
+                        <h3><strong>Frameworks:</strong></h3>
                             <ul class="knowList">
                                 <li>Javascript</li>
                                 <li>Typescript</li>
                             </ul>
                     </section>
 
-                    <section class=" col-md-4 skills">
+                    <section class="col-md-4 skills card column">
                         <ul class="skillList">
                             <li>HTML</li>
                             <li>CSS</li>
-                            <li>Adobe Illustrator</li>
-                            <li>Adobe Photoshop</li>
-                            <li>Adobe XD</li>
-                            <li>Adobe InDesign</li>
-                            <li>Adobe Premiere</li>
-                            <li>Adobe Lightroom</li>
+                            <h4 class="adobeHead">Adobe CS:</h4>
+                            <li>Illustrator</li>
+                            <li>Photoshop</li>
+                            <li>XD</li>
+                            <li>InDesign</li>
+                            <li>Premiere</li>
+                            <li>Lightroom</li>
                         </ul>
                     </section>
         
-                    <section class="col-md-4 userExperience">
+                    <section class="col-md-4 userExperience card column">
                         <h3><strong> Experience Methods: </strong></h3>
                             <ul class="uxList">
                                 <li>Heuristic Evaluation</li>
@@ -127,14 +109,17 @@
                     <li>GIT340 Info Design and Usability</li>
                     <li>GIT417 Advanced Web Markup (Currently Taking)</li>
                 </ul>
-                <h3>Cummulative GPA: 3.38</h3>
-                <h3>Major GPA: 3.41</h3>
+                <h3 class="gpaC"><strong>Cummulative GPA: 3.38</strong></h3>
+                <h3 class="gpaM"><strong>Major GPA: 3.41</strong></h3>
             </section>
 
-            <div class="row">
+            <div>
                 <section class="projects">
                     <h2 class="projectHead">PROJECTS</h2>
-
+                        <p class="col-md-6 prototypeSum">For one of my classes I had to use Adobe XD to create an app prototype.<br> 
+                            This project was the first prototype that I had ever made, and it was <br> very enjoyable to work through and make.<br>
+                            <button onclick="location.href='https://xd.adobe.com/view/f85e4ad5-fde5-4fe5-4d4d-abad48553c69-8e6f/?fullscreen'" type="button" class="btn btn-danger btn-round myBtn">Prototype</button>
+                        </p>
                 </section>
             </div>
         </main>
