@@ -1,0 +1,61 @@
+.aboutMe{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.courseList{
+    text-align: center;
+    list-style-type: none;
+}
+
+.courses{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.skillSection{
+    background-color: #fc5421;
+    padding-bottom: 25px;
+    padding-top: 5px;
+    color: #ffffff;
+    width: 100vw;
+}
+
+.skills{
+    text-align: center;
+}
+
+.skillList{
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+}
+
+.knowledge{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+.knowList{
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.userExperience{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+}
+
+.uxList{
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.projectHead{
+    margin-left: 200px;
+}
